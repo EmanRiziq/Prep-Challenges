@@ -61,31 +61,20 @@
 
 const cvFormatter = (arr) => {
   // write your code here
-  let result=[];
+  let result = [];
 
-  for(let i=0; i<arr.length;i++)
-  {
-    if (arr[i].yearsOfExperience >1)
-    {
-      let Emp={};
-      if (arr[i].lastName== null)
-      {
-        Emp.fullName= arr[i].firstName;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].yearsOfExperience > 1) {
+      let Emp = {};
+      if (arr[i].lastName == null) {
+        Emp.fullName = arr[i].firstName;
       }
-      else
-          {Emp.fullName= arr[i].firstName+" "+arr[i].lastName; }
-          Emp.tech =arr[i].tech;
-    
-     
+      else { Emp.fullName = arr[i].firstName + " " + arr[i].lastName; }
+      Emp.tech = arr[i].tech;
       result.push(Emp);
-     
-     
     }
- 
   }
-
   return result;
-
 };
 // -------------------------------------------------------------------------------------------------------
 

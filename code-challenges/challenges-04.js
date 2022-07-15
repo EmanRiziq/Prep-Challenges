@@ -23,6 +23,7 @@ runningSumArray[0]=arr[0];
 
 // -------------------------------------------------------------------------------------------------------
 // Challenge 02:
+//skipped this one
 // Required:
 //
 // Write a function that takes two parameters (array and number) and remove all
